@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--分頁顯示的名稱 A-3 -->
+	<title>09170156-卓佳慧</title>
+	
+<!--  引入自己寫的CSS  A-2-->
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+
+</head>
+	  
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html"> 台灣電影 </a>
+					<a class="nav-item nav-link" href="QA.html"> Q＆A </a>
+					<a class="nav-item nav-link" href="map.html">鄰近電影院</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+	
+<!--給jumbotron一個名稱，叫做 "first"-->
+<section id="first">
+  <!--套用jumbotron的樣式-->
+  <div class="jumbotron">
+		<!--將自己的科系名字學號套用乾淨的<h1>樣式-->
+  		<h1>統資一甲卓佳慧09170156</h1>
+			<!--新增一個按鈕，套用btn-danger樣式，設定超連結href:到youtube、銘傳官網、XX系官網，而且是開一個新分頁 target="_blank"-->
+			
+			<!-- C-5 參考連結: https://bootstrap.hexschool.com/docs/4.2/components/buttons/ -->
+	        <a class="btn btn-outline-warning" href="https://movies.yahoo.com.tw/movie_comingsoon.html" role="button" target="_blank" >Yahoo奇摩電影院</a>
+	        <a class="btn btn-outline-info" href="https://www.vscinemas.com.tw/ShowTimes/" role="button"  target="_blank">威秀影城</a>
+			
+  </div>
+</section>
+<section id="zz">
+<div class="card-deck">
+  <div class="card border-info mb-3" style="max-width;">
+    <img src="img/z.jpg" class="card-img-top" style="max-width;" >
+    <div class="card-body text-info">
+      <h5 class="card-title">6/30 即將上映 </h5>
+      <p class="card-text">噤界II</p>
+      <p class="card-text"><small class="text-muted">《噤界II》（英語：A Quiet Place Part II）是一部2020年美國後末日科幻恐怖電影，由約翰·卡拉辛斯基編劇和執導。本片為2018年電影《噤界》的續集，主演包括艾蜜莉·布朗、席尼·墨菲、米莉森·西蒙斯、諾亞·朱佩和吉蒙·韓蘇。</small></p>
+    </div>
+  </div>
+  <div class="card border-info mb-3" style="max-width;">
+    <img src="img/e.jpg" class="card-img-top" style="max-width;">
+    <div class="card-body text-info">
+      <h5 class="card-title">9/10 即將上映</h5>
+      <p class="card-text">糖果人</p>
+      <p class="card-text"><small class="text-muted">《糖果人》（英語：Candyman）是一部2020年美國超自然恐怖砍殺電影，由妮亞·達科斯塔執導並與喬登·皮爾、溫·羅森菲爾德（Win Rosenfeld）共同撰寫劇本，改編自克里夫·巴克的短篇小說《禁忌》（The Forbidden）。其主演包括葉海亞·阿巴杜-馬汀二世、泰娜·帕麗斯、內森·史都華-賈萊特、科爾曼·多明戈和凡妮莎·艾絲黛兒·威廉絲，而在前幾部電影中主演糖果人的東尼·陶德則再次回歸演出該角。</small></p>
+    </div>
+  </div>
+  <div class="card border-info mb-3" style="max-width;">
+    <img src="img/i.jpg" class="card-img-top" style="max-width;">
+    <div class="card-body text-info">
+      <h5 class="card-title">9/16 即將上映</h5>
+      <p class="card-text">猛毒2：血蜘蛛</p>
+      <p class="card-text"><small class="text-muted">《猛毒2：血蜘蛛》（英語：Venom: Let There Be Carnage）是一部預計於2021年上映的美國超級英雄電影，由漫威漫畫旗下角色猛毒故事改編，哥倫比亞影業製作，並由索尼影視娛樂發行。本片為「索尼影業漫威角色宇宙」的第二部電影，2018年電影《猛毒》的續集，由安迪·瑟克斯執導，凱莉·馬賽爾編劇。主演包括湯姆·哈迪、蜜雪兒·威廉絲、伍迪·哈里遜、雷德·史考特和娜歐蜜·哈瑞絲。</small></p>
+     </div>
+    </div>
+  </div>
+</section>
+
+	
+	
+</body>
+</html>
+
